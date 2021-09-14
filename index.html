@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>New animated website design</title>
+   
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    
+   <style>
+    
+     
+body{
+	font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+    height: 1900px;
+}
+
+html{
+	height: 100%;
+}
+
+::selection {
+  background: hotpink; 
+  color: #fff;
+}
+
+ 
+::-moz-selection {
+  background: hotpink; 
+  color: #fff;
+}
+
+/* Margins */
+
+  
+/* Typoghraphy */ 
+
+ 
+ 
+h2{
+    font-size: 60px;
+    font-weight: 600;
+    
+}
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+.home.type-3 {
+    background: url(one.png) ;
+    width: 100%;
+    display: table;
+    position: relative;
+    z-index: -1;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.home.type-3:before{    
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+
+ 
+.home-content h2{
+    margin-top: -150px;
+    color: #fff;
+    margin-left: 15px;
+}
+
+.home-content{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: left;
+    z-index: 2;
+    position: relative;
+    margin-top: -79px;
+}
+
+.home-content h1{
+    margin-top: -150px;
+    color: #fff;
+    margin-left: 15px;
+}
+ 
+
+#scene{
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    margin-bottom: -10px; 
+    z-index: 100;   
+    
+}
+
+#scene .l1{
+    margin-left: -399px;
+}
+
+#scene .l2{
+    margin-top:100px;
+}
+
+#scene .l3 img{
+    margin-left: 181%;
+    margin-top: 100px;
+}
+
+#scene .l4 img{
+    margin-left: 291%;
+    margin-top: -310px;
+}
+
+ 
+ 
+
+        
+       p{
+           width: 70%;
+           margin: 0 auto;
+           font-size: 18px;
+           line-height: 30px;
+       }
+
+
+
+
+
+
+
+
+
+
+
+    
+    </style>
+  
+</head>
+
+<body>
+    <!-- Preloading -->
+     
+    
+    <div class="wrapper">
+        <!-- HEADER -->
+       
+        <!-- HOME -->
+        <div class="home type-3">
+            <div class="home-content">
+                <div class="container">
+                    <h2>Hello! <br/>
+                    I'm <span class="element" data-text1="Parallax" data-text2="Scrolling Animated Website" data-text3="Web Design" data-loop="true" data-backdelay="1500"></span>
+                    </h2> 
+                </div>
+            </div>
+            <ul id="scene">
+              <li class="layer l1" data-depth="0.25"><img src="cloudd.png" alt=""></li>
+              <li class="layer l2" data-depth="0.75"><img src="cloud-2.png" alt=""></li>
+              <li class="layer l3" data-depth="0.57"><img src="cloud-2.png" alt=""></li>
+            </ul>
+        </div>
+        <br><br>
+        <h1 class="text-center">Parallax Scrolling Design</h1>
+        <br>
+        <p class="text-center">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae mollitia quasi placeat possimus qui maxime similique magni repudiandae deserunt dignissimos facere enim officiis delectus accusantium autem quos suscipit, accusamus neque aut eaque voluptate! Dignissimos doloremque aperiam perferendis dolor dolorem! Alias!
+        </p>
+         
+         
+        
+        </div>  
+    
+    
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+     
+     
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+  
+    <script src="typed.js"></script>
+   
+    <script src="custom.js">
+   
+    
+    </script>
+
+    
+</body>
+    
+   
+</html>

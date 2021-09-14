@@ -1,0 +1,112 @@
+body{
+    font-family: sans-serif;
+    overflow-x: hidden;
+    height: 1900px;
+}
+
+h2{
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: -3px;
+}
+
+html{
+    height: 100%;
+}
+
+.home.type-3{
+    background: url(man-activity-mountain-male-person-tourism-young-travel-landscape-adventure-nature-caucasian-outdoors_t20_kRQWj2.jpg) bottom center;
+    width: 100%;
+    display: table;
+    position: relative;
+    z-index: -1;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+
+.home.type-3:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.3);
+    z-index: 1;
+    
+}
+
+
+.home-content h2{
+    margin-top: -150px;
+    color: white;
+    margin-left: 15px;
+}
+
+
+.home-content{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: left;
+    z-index: 2;
+    position: relative;
+    margin-top: -79px;
+}
+
+
+ 
+
+#scene{
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    margin-bottom: -10px;
+    z-index: 100;
+}
+
+
+
+#scene .l1{
+    margin-left: -399px;
+}
+
+
+
+#scene .l2{
+    margin-top: 100px;
+}
+
+
+
+#scene .l3 img{
+    margin-left: 181%;
+    margin-top: 100px;
+}
+
+
+ 
+
+p{
+    width: 70%;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
